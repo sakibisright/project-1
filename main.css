@@ -7,7 +7,7 @@ body{
     margin-bottom: 150px;
 }
 .top-section{
-    margin: 80px;
+    margin-top: 38px;
     display:flex;
     padding-left:20px;
     }
@@ -22,6 +22,9 @@ body{
 }
 .images{
     margin-right:5px;
+}
+.images-2{
+    border-radius: 30px;
 }
 .part-1 img{
     width:90%
@@ -101,4 +104,43 @@ body{
 .mid-box-child2 img{
     width:20%;
     padding-top:10px;
+}
+.bg-image{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+.bg-image1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.bg-footer{
+    background-color: black;
+    height:150px;
+    
+}
+footer{
+    margin-left:450px;
+}
+footer h1{
+    color:white;
+    text-align: center;
+    font-family:monospace;
+    padding-top:8px;
+    
+}
+footer h1 span{
+    color: rgb(255, 0, 0);
+    padding-top:8px;
+}
+ footer span{
+    color:gray;
+    text-align: center;
+}
+.main_container{
+    border:1px gray solid;
+    box-shadow: 2px 0px 5px gray,-2px -0px 5px gray;
+    margin:0px;
+
 }
